@@ -1,3 +1,4 @@
+import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import Layout from "./components/ui/Layout";
 
@@ -6,7 +7,9 @@ function App() {
     <main className='bg-[#e5dfd7] text-dark min-h-screen'>
       <Navbar />
       <Layout>
-        <h1 className='text-3xl font-bold underline'>Hello world!</h1>
+        <section className='pt-[90px]'>
+          <Hero />
+        </section>
       </Layout>
     </main>
   );

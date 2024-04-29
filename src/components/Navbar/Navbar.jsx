@@ -1,4 +1,5 @@
 import useNav from "../../hooks/useNav";
+import Logo from "../ui/Logo";
 import MenuDesktop from "./MenuDesktop";
 import MenuMobile from "./MenuMobile";
 
@@ -16,7 +17,7 @@ const Navbar = () => {
     ${hasScrolled ? "bg-nav" : "bg-transparent"}
    `}
     >
-      <div>LOGO</div>
+      <Logo variant='blue' />
       <button
         className='text-2xl cursor-pointer z-[99] text-secondary flex items-center justify-center md:hidden'
         onClick={handleIsOpen}

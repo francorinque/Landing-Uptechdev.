@@ -1,3 +1,4 @@
+import Employees from "./components/Employees/Employees";
 import Hero from "./components/Hero/Hero";
 import Industries from "./components/Industries/Industries";
 import Navbar from "./components/Navbar/Navbar";
@@ -11,8 +12,11 @@ function App() {
         <section className='pt-[10px]'>
           <Hero />
         </section>
-        <section className='pt-[90px]'>
+        <section className='pt-[150px]'>
           <Industries />
+        </section>
+        <section className='pt-[150px]'>
+          <Employees />
         </section>
       </Layout>
     </main>

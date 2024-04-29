@@ -9,7 +9,7 @@ export default {
         blue: "#1A60FE",
         nav: "#fffefb",
         // nav: "#a09d97",
-        light: "#E5DFD7",
+        light: "#FEFDF9",
       },
     },
   },

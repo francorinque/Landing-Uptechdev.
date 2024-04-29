@@ -91,5 +91,39 @@
         "title": "Netflix icon svg"
       }
     ]
+  },
+  "section-three": {
+    "info_employess": [
+      {
+        "name": "Lara Sanchez",
+        "role": "CTO, ABC Company",
+        "picture": {
+          "url": "https://res.cloudinary.com/dmln0fwl5/image/upload/v1714407638/Employees/pm3cejl6vix8m15jwamw.webp",
+          "alt": "Lara sanchez smiling",
+          "title": "Woman smiling"
+        }
+      },
+      {
+        "name": "Lila Doe",
+        "role": "CTO, ABC Company",
+        "picture": {
+          "url": "https://res.cloudinary.com/dmln0fwl5/image/upload/v1714407638/Employees/jgvykmy0ezarxsv5q7dy.webp",
+          "alt": "Lara sanchez smiling",
+          "title": "Woman smiling"
+        }
+      }
+    ],
+    "info_texts": [
+      "Unleash your creativity and bring ideas to life.",
+      "Accelerate your development process and save valuable time.",
+      "Deliver exceptional user experiences with AI-powered solutions."
+    ],
+    "title": "Unlock the Power of AI with SoftCraft's Cutting-Edge Features",
+    "desc": "Experience seamless software creation with SoftCraft's innovative technology. Our AI-driven platform simplifies complex processes, empowering you to bring your ideas to life.",
+    "button": {
+      "text": "See more",
+      "title": "See more",
+      "href": "#"
+    }
   }
 }

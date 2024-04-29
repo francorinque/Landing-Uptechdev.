@@ -1,0 +1,31 @@
+{
+  "section-nav": {
+    "links": [
+      {
+        "text": "About",
+        "title": "About",
+        "href": "#about"
+      },
+      {
+        "text": "Features",
+        "title": "Features",
+        "href": "#features"
+      },
+      {
+        "text": "Our Process",
+        "title": "Our Process",
+        "href": "#our_process"
+      },
+      {
+        "text": "Benefits",
+        "title": "Benefits",
+        "href": "#benefits"
+      }
+    ],
+    "button": {
+      "text": "Contact",
+      "title": "Contact",
+      "href": "mailto:4N5z6@example.com"
+    }
+  }
+}

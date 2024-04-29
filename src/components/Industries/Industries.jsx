@@ -7,9 +7,16 @@ const Industries = () => {
   return (
     <div>
       <h2 className='subtitle font-playfair text-center'>{title}</h2>
-      <div className=' mt-10 grid grid-cols-1 md:grid-cols-5  gap-4 place-items-center'>
+      <div className=' mt-10 flex flex-wrap gap-10 justify-center lg:justify-between'>
         {industries.map(({ url, alt, title }) => (
-          <img src={url} alt={alt} title={title} />
+          <img
+            src={url}
+            alt={alt}
+            title={title}
+            className='
+            w-[100px]
+          '
+          />
         ))}
       </div>
     </div>

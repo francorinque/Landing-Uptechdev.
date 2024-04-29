@@ -4,10 +4,10 @@ const CustomBtn = ({ variant, children }) => {
       className={`
         ${
           variant === "primary"
-            ? "bg-blue text-light hover:bg-transparent hover:border hover:border-blue hover:text-blue"
-            : "bg-transparent border border-blue text-blue hover:bg-blue hover:text-light"
+            ? "bg-blue text-light "
+            : "bg-transparent border border-blue text-blue"
         }
-        transition-colors duration-300
+        transition-transform duration-300 hover:scale-[0.95]
          font-semibold select-none py-2 px-4 rounded-md
         `}
     >

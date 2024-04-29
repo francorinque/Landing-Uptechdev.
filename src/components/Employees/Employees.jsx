@@ -5,7 +5,7 @@ const Employees = () => {
   return (
     <div
       className='
-    flex flex-col gap-5 md:flex-row justify-between md:items-start
+    flex flex-col gap-5 md:flex-row justify-between items-baseline
     '
     >
       <div className='flex-1  max-w-[600px]'>

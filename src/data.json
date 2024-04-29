@@ -61,5 +61,35 @@
         "title": "data"
       }
     }
+  },
+  "section-two": {
+    "title": "Trusted by industry-leading companies around the globe",
+    "industries": [
+      {
+        "url": "https://res.cloudinary.com/dmln0fwl5/image/upload/v1714405346/v0w6xja0dvhtxes8sfbv.svg",
+        "alt": "Apple icon svg",
+        "title": "Apple icon svg"
+      },
+      {
+        "url": "https://res.cloudinary.com/dmln0fwl5/image/upload/v1714405346/mpfx7ktxx80nfpkzg6j5.svg",
+        "alt": "Google icon svg",
+        "title": "Google icon svg"
+      },
+      {
+        "url": "https://res.cloudinary.com/dmln0fwl5/image/upload/v1714405346/bxi9mkeaztubn7gqbsqf.svg",
+        "alt": "Microsoft icon svg",
+        "title": "Microsoft icon svg"
+      },
+      {
+        "url": "https://res.cloudinary.com/dmln0fwl5/image/upload/v1714405346/nzyndfkakrcaym0akcbj.svg",
+        "alt": "Aws icon svg",
+        "title": "Aws icon svg"
+      },
+      {
+        "url": "https://res.cloudinary.com/dmln0fwl5/image/upload/v1714405346/bugucepn4asx1kmpiyq2.svg",
+        "alt": "Netflix icoN svg",
+        "title": "Netflix icon svg"
+      }
+    ]
   }
 }

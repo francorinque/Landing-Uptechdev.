@@ -207,5 +207,60 @@
     },
     "title": "Unlock the Power of AI-Driven Software Creation with SoftCraft",
     "desc": "SoftCraft is a cutting-edge platform that combines the latest advancements in artificial intelligence with user-friendly features, making it easy for businesses of all sizes to develop innovative software solutions. With SoftCraft, you can bring your ideas to life and stay ahead in the rapidly evolving tech landscape."
+  },
+  "section-eight": {
+    "title": "Reviews",
+    "reviews": [
+      {
+        "name": "Jessie Doe",
+        "role": "CEO, ABC Company",
+        "picture": {
+          "url": "https://res.cloudinary.com/dmln0fwl5/image/upload/v1714407638/Employees/pm3cejl6vix8m15jwamw.webp",
+          "alt": "alt of picture",
+          "title": "titleo of picture"
+        },
+        "comment": "SoftCraft has revolutionized our software development process. Their AI-driven platform has significantly increased our productivity and efficiency, allowing us to deliver high-quality products to our clients in record time."
+      },
+      {
+        "name": "John Doe",
+        "role": "CEO, ABC Company",
+        "picture": {
+          "url": "https://res.cloudinary.com/dmln0fwl5/image/upload/v1714407638/Employees/jgvykmy0ezarxsv5q7dy.webp",
+          "alt": "alt of picture",
+          "title": "titleo of picture"
+        },
+        "comment": "SoftCraft has revolutionized our software development process. Their AI-driven platform has significantly increased our productivity and efficiency, allowing us to deliver high-quality products to our clients in record time."
+      },
+      {
+        "name": "Lila Doe",
+        "role": "CEO, ABC Company",
+        "picture": {
+          "url": "https://res.cloudinary.com/dmln0fwl5/image/upload/v1714407638/Employees/pm3cejl6vix8m15jwamw.webp",
+          "alt": "alt of picture",
+          "title": "titleo of picture"
+        },
+        "comment": "SoftCraft has revolutionized our software development process. Their AI-driven platform has significantly increased our productivity and efficiency, allowing us to deliver high-quality products to our clients in record time."
+      },
+      {
+        "name": "John Doe",
+        "role": "CEO, ABC Company",
+        "picture": {
+          "url": "https://res.cloudinary.com/dmln0fwl5/image/upload/v1714407638/Employees/jgvykmy0ezarxsv5q7dy.webp",
+          "alt": "alt of picture",
+          "title": "titleo of picture"
+        },
+        "comment": "SoftCraft has revolutionized our software development process. Their AI-driven platform has significantly increased our productivity and efficiency, allowing us to deliver high-quality products to our clients in record time."
+      },
+      {
+        "name": "John Doe",
+        "role": "CEO, ABC Company",
+        "picture": {
+          "url": "https://res.cloudinary.com/dmln0fwl5/image/upload/v1714407638/Employees/jgvykmy0ezarxsv5q7dy.webp",
+          "alt": "alt of picture",
+          "title": "titleo of picture"
+        },
+        "comment": "SoftCraft has revolutionized our software development process. Their AI-driven platform has significantly increased our productivity and efficiency, allowing us to deliver high-quality products to our clients in record time."
+      }
+    ]
   }
 }

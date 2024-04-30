@@ -5,6 +5,7 @@ import Hero from "./components/Hero/Hero";
 import Industries from "./components/Industries/Industries";
 import Navbar from "./components/Navbar/Navbar";
 import Projects from "./components/Projects/Projects";
+import Reviews from "./components/Reviews/Reviews";
 import VideoSection from "./components/VideoSection/VideoSection";
 import Layout from "./components/ui/Layout";
 
@@ -33,6 +34,9 @@ function App() {
         </section>
         <section className='pt-[150px] lg:pt-[250px] '>
           <About />
+        </section>
+        <section className='pt-[150px] lg:pt-[250px] '>
+          <Reviews />
         </section>
       </Layout>
     </main>

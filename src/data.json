@@ -9,24 +9,34 @@
   "section-nav": {
     "links": [
       {
-        "text": "About",
-        "title": "About",
-        "href": "#about"
+        "text": "Home",
+        "title": "Home",
+        "href": "#home"
       },
       {
-        "text": "Features",
-        "title": "Features",
-        "href": "#features"
+        "text": "Industries",
+        "title": "Industries",
+        "href": "#industries"
       },
       {
-        "text": "Our Process",
-        "title": "Our Process",
-        "href": "#our_process"
+        "text": "Employees",
+        "title": "Employees",
+        "href": "#employees"
+      },
+      {
+        "text": "Projects",
+        "title": "Projects",
+        "href": "#projects"
       },
       {
         "text": "Benefits",
         "title": "Benefits",
         "href": "#benefits"
+      },
+      {
+        "text": "About",
+        "title": "About",
+        "href": "#about"
       }
     ],
     "button": {
@@ -132,5 +142,70 @@
       "alt": "group in project",
       "title": "group in project"
     }
+  },
+  "section-five": {
+    "title": "Our Projects",
+    "projects": [
+      {
+        "title": "Title of the first object",
+        "desc": "SoftCraft's innovative platform simplifies the software creation process, making it accessible to all users.",
+        "img": {
+          "url": "https://res.cloudinary.com/dmln0fwl5/image/upload/v1714502922/projects/pc7mdhj07qzwvzgslyct.webp",
+          "alt": "Alternate text for image 1",
+          "title": "Title of image 1"
+        }
+      },
+      {
+        "title": "Title of the second object",
+        "desc": "SoftCraft's innovative platform simplifies the software creation process, making it accessible to all users.",
+        "img": {
+          "url": "https://res.cloudinary.com/dmln0fwl5/image/upload/v1714502922/projects/ynp8fu1htujb00fih7ht.webp",
+          "alt": "Alternate text for image 2",
+          "title": "Title of image 2"
+        }
+      }
+    ]
+  },
+  "section-six": {
+    "img": {
+      "url": "https://res.cloudinary.com/dmln0fwl5/image/upload/v1714503948/bdnmi3wiedhwig8lo2p5.jpg",
+      "alt": "alt of image",
+      "title": "title of image"
+    },
+    "benefits": [
+      {
+        "icon": {
+          "url": "https://res.cloudinary.com/dmln0fwl5/image/upload/v1714504893/benefits-icons/tl6krlk6fxcb08x1dqb6.svg",
+          "alt": "icon svg"
+        },
+        "title": "Unlock Powerful Features Today",
+        "desc": "Discover the core functionalities of SoftCraft and unleash the potential of AI-driven software creation."
+      },
+      {
+        "icon": {
+          "url": "https://res.cloudinary.com/dmln0fwl5/image/upload/v1714504893/benefits-icons/giygcwhkuk4qfpbfbb8w.svg",
+          "alt": "icon svg"
+        },
+        "title": "Streamline Your Workflow",
+        "desc": "Experience seamless integration and innovative iconography that simplifies software development."
+      },
+      {
+        "icon": {
+          "url": "https://res.cloudinary.com/dmln0fwl5/image/upload/v1714504893/benefits-icons/s2v6hxglane7sz4y5jve.svg",
+          "alt": "icon svg"
+        },
+        "title": "Unleash Your Creativity",
+        "desc": "Embrace dynamic graphics and unleash your creativity with SoftCraft's AI-powered platform."
+      }
+    ]
+  },
+  "section-seven": {
+    "img": {
+      "url": "https://res.cloudinary.com/dmln0fwl5/image/upload/v1714505450/l0zwegbiwlg6ioterwpn.webp",
+      "alt": "alt of image",
+      "title": "title of image"
+    },
+    "title": "Unlock the Power of AI-Driven Software Creation with SoftCraft",
+    "desc": "SoftCraft is a cutting-edge platform that combines the latest advancements in artificial intelligence with user-friendly features, making it easy for businesses of all sizes to develop innovative software solutions. With SoftCraft, you can bring your ideas to life and stay ahead in the rapidly evolving tech landscape."
   }
 }

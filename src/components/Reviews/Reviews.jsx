@@ -8,7 +8,7 @@ const Reviews = () => {
   const [emblaRef] = useEmblaCarousel();
 
   return (
-    <div>
+    <div id='reviews'>
       <h2 className='subtitle font-playfair text-center'>{title}</h2>
       <div className='embla min-h-[250px] mt-[40px]' ref={emblaRef}>
         <div className='embla__container h-full'>

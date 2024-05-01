@@ -1,6 +1,8 @@
 import About from "./components/About/About";
 import Benefits from "./components/Benefits/Benefits";
+import Contact from "./components/Contact/Contact";
 import Employees from "./components/Employees/Employees";
+import Footer from "./components/Footer/Footer";
 import Hero from "./components/Hero/Hero";
 import Industries from "./components/Industries/Industries";
 import Navbar from "./components/Navbar/Navbar";
@@ -38,7 +40,11 @@ function App() {
         <section className='pt-[150px] lg:pt-[250px] '>
           <Reviews />
         </section>
+        <section className='pt-[150px] lg:pt-[250px] '>
+          <Contact />
+        </section>
       </Layout>
+      <Footer />
     </main>
   );
 }

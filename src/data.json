@@ -37,6 +37,11 @@
         "text": "About",
         "title": "About",
         "href": "#about"
+      },
+      {
+        "text": "Reviews",
+        "title": "Reviews",
+        "href": "#reviews"
       }
     ],
     "button": {
@@ -260,6 +265,41 @@
           "title": "titleo of picture"
         },
         "comment": "SoftCraft has revolutionized our software development process. Their AI-driven platform has significantly increased our productivity and efficiency, allowing us to deliver high-quality products to our clients in record time."
+      }
+    ]
+  },
+  "section-nine": {
+    "title": "Create AI-driven software effortlessly",
+    "desc": "Unlock the power of AI technology to revolutionize your software development process.",
+    "button": {
+      "text": "Contact",
+      "title": "title of button",
+      "href": "mailto:4N5z6@example.com"
+    },
+    "img": {
+      "url": "https://res.cloudinary.com/dmln0fwl5/image/upload/v1714516376/xhc8i6rea3cwbsphzzdb.svg",
+      "alt": "alt of img",
+      "title": "alt of img"
+    }
+  },
+  "section-footer": {
+    "text": "Unlock the power of AI technology to revolutionize your software development process.",
+    "copyright": "SoftCraft. All rights reserved",
+    "footer_link": {
+      "text": "Contact",
+      "title": "Contact",
+      "href": "mailto:4N5z6@example.com"
+    },
+    "other_links": [
+      {
+        "title": "Privacy Policy",
+        "text": "Privacy Policy",
+        "href": "#"
+      },
+      {
+        "title": "Terms of Service",
+        "text": "Terms of Service",
+        "href": "#"
       }
     ]
   }

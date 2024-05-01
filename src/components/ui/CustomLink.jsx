@@ -3,8 +3,8 @@ const CustomLink = ({ text, animated, ...props }) => {
     <a
       {...props}
       className='
-  text-dark text-[16px] relative inline-block group hover:text-blue
-  '
+   text-dark text-[16px] relative inline-block group hover:text-blue
+     '
     >
       {text}
       {animated && (

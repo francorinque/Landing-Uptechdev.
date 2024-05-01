@@ -8,11 +8,24 @@ const MenuDesktop = () => {
   return (
     <nav className='w-full  justify-between hidden md:flex'>
       <ul className='flex mx-auto'>
-        {data["section-nav"].links.map(({ text, href }) => (
-          <li key={uuidv4()} className='p-2'>
-            <CustomLink text={text} href={href} animated />
-          </li>
-        ))}
+        {data["section-nav"].links.map(({ text, href, isExternal, title }) =>
+          isExternal ? (
+            <li key={uuidv4()} className='p-2'>
+              <CustomLink
+                text={text}
+                href={href}
+                animated
+                rel='noreferrer'
+                target='_blank'
+                title={title}
+              />
+            </li>
+          ) : (
+            <li key={uuidv4()} className='p-2'>
+              <CustomLink text={text} href={href} animated title={title} />
+            </li>
+          )
+        )}
       </ul>
       {/* btn */}
 

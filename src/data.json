@@ -11,37 +11,50 @@
       {
         "text": "Home",
         "title": "Home",
-        "href": "#home"
+        "href": "#home",
+        "isExternal": false
       },
       {
         "text": "Industries",
         "title": "Industries",
-        "href": "#industries"
+        "href": "#industries",
+        "isExternal": false
       },
       {
         "text": "Employees",
         "title": "Employees",
-        "href": "#employees"
+        "href": "#employees",
+        "isExternal": false
       },
       {
         "text": "Projects",
         "title": "Projects",
-        "href": "#projects"
+        "href": "#projects",
+        "isExternal": false
       },
       {
         "text": "Benefits",
         "title": "Benefits",
-        "href": "#benefits"
+        "href": "#benefits",
+        "isExternal": false
       },
       {
         "text": "About",
         "title": "About",
-        "href": "#about"
+        "href": "#about",
+        "isExternal": false
       },
       {
         "text": "Reviews",
         "title": "Reviews",
-        "href": "#reviews"
+        "href": "#reviews",
+        "isExternal": false
+      },
+      {
+        "text": "Blog",
+        "title": "Blog",
+        "href": "https://midu.dev/",
+        "isExternal": true
       }
     ],
     "button": {

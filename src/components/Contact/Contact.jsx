@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div
       id='contact'
-      className='grid grid-cols-1 md:grid-cols-2 gap-10 place-items-center bg-light p-10'
+      className='grid grid-cols-1 md:grid-cols-2 gap-10 place-items-center bg-light p-10 rounded-md'
     >
       <div className=' text-center'>
         <h2 className='subtitle text-[95px] font-playfair text-blue'>

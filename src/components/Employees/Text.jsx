@@ -6,7 +6,7 @@ const Text = () => {
   const { title, desc, button } = data["section-three"];
 
   return (
-    <div className='text-left'>
+    <div className='text-center lg:text-left'>
       <h2 className='subtitle font-playfair'>{title}</h2>
       <p className='my-4 text-[14px] '>{desc}</p>
       <CustomBtn variant='secondary'>

@@ -18,14 +18,21 @@ const Benefits = () => {
 
       <div className='flex flex-col gap-5'>
         {benefits.map((b) => (
-          <div key={uuidv4()}>
+          <div
+            key={uuidv4()}
+            className='flex flex-col items-center text-center gap-2
+            md:items-start md:text-left
+            '
+          >
+            {/* icon */}
             <div className='mb-2'>
               <img src={b.icon.url} alt={b.icon.alt} />
             </div>
-            <h3 className='font-playfair text-[18px] md:text-[20px]'>
+            {/* text */}
+            <h3 className='font-playfair text-[18px] md:text-[20px] font-semibold'>
               {b.title}
             </h3>
-            <p className='text-[14px] max-w-[400px]'>{b.desc}</p>
+            <p className='text-[14px] max-w-[400px] '>{b.desc}</p>
           </div>
         ))}
       </div>

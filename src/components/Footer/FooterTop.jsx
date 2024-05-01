@@ -17,7 +17,11 @@ const FooterTop = () => {
         </p>
       </div>
       {/* links */}
-      <ul className='my-10 md:my-0 grid grid-cols-2 lg:grid-cols-4 gap-4  *:text-center  w-full'>
+      <ul
+        className='my-10 md:my-0 grid grid-cols-2 lg:grid-cols-4 gap-4  *:text-center  w-full
+      *:bg-light/5  *:p-2 *:rounded *:text-[14px]
+      '
+      >
         {data["section-nav"].links.map(({ title, text, href }) => (
           <li key={uuidv4()}>
             <a href={href} title={title}>

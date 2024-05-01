@@ -15,7 +15,13 @@ const HeroImg = () => {
         aspect-square
         '
       />
-      <img src={url} alt={alt} title={title} landing='lazy' />
+      <img
+        src={url}
+        alt={alt}
+        title={title}
+        landing='lazy'
+        className='aspect-square max-h-[500px] object-cover'
+      />
       <img
         src={imgRight.url}
         alt={alt}

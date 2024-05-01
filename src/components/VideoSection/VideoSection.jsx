@@ -20,7 +20,7 @@ const VideoSection = () => {
   };
 
   return (
-    <div className='bg-blue h-500px w-full relative'>
+    <div className='bg-blue h-500px w-full relative rounded-md'>
       {/* video */}
       <div className='lg:translate-y-[-100px]'>
         <video

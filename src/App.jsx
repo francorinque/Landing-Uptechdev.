@@ -10,6 +10,7 @@ import Projects from "./components/Projects/Projects";
 import Reviews from "./components/Reviews/Reviews";
 import VideoSection from "./components/VideoSection/VideoSection";
 import Layout from "./components/ui/Layout";
+import ScrollToTop from "./components/ui/ScrollToTop";
 
 function App() {
   return (
@@ -45,6 +46,7 @@ function App() {
         </section>
       </Layout>
       <Footer />
+      <ScrollToTop />
     </main>
   );
 }

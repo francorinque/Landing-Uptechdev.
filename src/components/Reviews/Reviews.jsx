@@ -14,7 +14,7 @@ const Reviews = () => {
         <div className='embla__container h-full'>
           {reviews.map((review) => (
             <div
-              className='embla__slide rounded-md bg-light  p-5'
+              className='embla__slide rounded-md bg-light  p-5 cursor-pointer'
               key={uuidv4()}
             >
               <h3 className='font-playfair'>{review.comment}</h3>

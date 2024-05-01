@@ -11,7 +11,9 @@ const HeroImg = () => {
         src={imgLeft.url}
         alt={alt}
         title={title}
-        className='hidden lg:block absolute left-0 top-[50%] translate-x-[-50%]'
+        className='hidden lg:block absolute left-0 top-[50%] translate-x-[-50%]
+        aspect-square
+        '
       />
       <img src={url} alt={alt} title={title} landing='lazy' />
       <img

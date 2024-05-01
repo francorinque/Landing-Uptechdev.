@@ -9,11 +9,15 @@ const FooterTop = () => {
     <div className='mb-5 flex flex-col md:flex-row md:justify-between'>
       {/* logo and text */}
       <div className='w-full'>
-        <Logo variant='whiteLogo' />
-        <p className='mt-4 text-[14px] max-w-[500px]'>{text}</p>
+        <div className='mx-auto w-max md:mx-0'>
+          <Logo variant='whiteLogo' />
+        </div>
+        <p className='mt-4 text-[14px] max-w-[500px] text-center md:text-left'>
+          {text}
+        </p>
       </div>
       {/* links */}
-      <ul className='my-10 md:my-0 grid grid-cols-2 lg:grid-cols-4 gap-4  *:text-left  w-full'>
+      <ul className='my-10 md:my-0 grid grid-cols-2 lg:grid-cols-4 gap-4  *:text-center  w-full'>
         {data["section-nav"].links.map(({ title, text, href }) => (
           <li key={uuidv4()}>
             <a href={href} title={title}>

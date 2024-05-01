@@ -10,6 +10,11 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 100px;
+}
+
 body {
   font-family: "Inter", sans-serif;
 }
@@ -27,11 +32,11 @@ body {
 }
 .embla__container {
   display: flex;
-  gap: 5px;
+  gap: 8px;
 }
 
 .embla__slide {
-  flex: 0 0 100%;
+  flex: 0 0 90%;
   min-width: 0;
 }
 
